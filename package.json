@@ -1,5 +1,5 @@
 {
-    "name": 'amirTest',
+    "name": "amirTest",
     "description": "Local cypress test",
     "scripts": {
         "cypress:ci": "concurrently \"cypress run\" --kill-others \"ng serve\" --success first"
