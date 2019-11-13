@@ -2,4 +2,5 @@
     "devDependencies": {
         "cypress": "3.4.1"
     }
+    "cypress:ci": "concurrently \"cypress run\" --kill-others \"ng serve\" --success first",
 }
