@@ -2,7 +2,8 @@
     "name": "amirTest",
     "description": "Local cypress test",
     "scripts": {
-        "cypress:ci": "concurrently \"cypress run\" --kill-others \"ng serve\" --success first"
+        "cypress-test": "npm run cypress:ci"
+        "cypress:ci": "cypress run --kill-others --success first"
     },
     "devDependencies": {
         "cypress": "3.4.1"
